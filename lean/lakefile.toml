@@ -1,0 +1,14 @@
+name = "ame96"
+version = "0.1.0"
+defaultTargets = ["AME96"]
+
+[leanOptions]
+autoImplicit = false
+
+[[require]]
+name = "formal_conjectures"
+git = "https://github.com/google-deepmind/formal-conjectures"
+rev = "2a46c7bd74505b85f4967475bb733ded0ef8d348"
+
+[[lean_lib]]
+name = "AME96"

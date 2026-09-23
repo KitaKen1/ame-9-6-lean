@@ -1,0 +1,40 @@
+ℹ [3406/3409] Replayed AME96.FirstCut
+info: AME96/FirstCut.lean:14:0: 'AME96.firstCut_cancels' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8927/8944] Replayed AME96.FastChecks
+info: AME96/FastChecks.lean:106:0: AME96.compatibleCase015 (d : Difference) : d ≠ 0 → Cancels (cutSelected 15) (cutOutside 15) d (cutCompatible 15 *ᵥ d)
+info: AME96/FastChecks.lean:204:0: AME96.compatibleCase031 (d : Difference) : d ≠ 0 → Cancels (cutSelected 31) (cutOutside 31) d (cutCompatible 31 *ᵥ d)
+info: AME96/FastChecks.lean:302:0: AME96.compatibleCase047 (d : Difference) : d ≠ 0 → Cancels (cutSelected 47) (cutOutside 47) d (cutCompatible 47 *ᵥ d)
+info: AME96/FastChecks.lean:400:0: AME96.compatibleCase063 (d : Difference) : d ≠ 0 → Cancels (cutSelected 63) (cutOutside 63) d (cutCompatible 63 *ᵥ d)
+info: AME96/FastChecks.lean:498:0: AME96.compatibleCase079 (d : Difference) : d ≠ 0 → Cancels (cutSelected 79) (cutOutside 79) d (cutCompatible 79 *ᵥ d)
+info: AME96/FastChecks.lean:596:0: AME96.compatibleCase095 (d : Difference) : d ≠ 0 → Cancels (cutSelected 95) (cutOutside 95) d (cutCompatible 95 *ᵥ d)
+info: AME96/FastChecks.lean:694:0: AME96.compatibleCase111 (d : Difference) : d ≠ 0 → Cancels (cutSelected 111) (cutOutside 111) d (cutCompatible 111 *ᵥ d)
+info: AME96/FastChecks.lean:913:0: 'AME96.fastCompatible_cancels' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8929/8944] Replayed AME96.CutCoverage
+info: AME96/CutCoverage.lean:21:0: 'AME96.allCuts_complete' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8930/8944] Replayed AME96.AllCuts
+info: AME96/AllCuts.lean:17:0: 'AME96.allCuts_cancels' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8939/8944] Replayed AME96.Reduction
+info: AME96/Reduction.lean:225:0: 'AME96.state_isAME_of_cancellation' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8940/8944] Replayed AME96.Existence
+info: AME96/Existence.lean:118:0: 'AME96.exists_ame_9_6' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [8941/8944] Built AME96.FormalTarget (204s)
+✔ [8942/8944] Built AME96 (219s)
+ℹ [8944/8944] Built AME96.Audit (84s)
+info: AME96/Audit.lean:4:0: 'AME96.G_symmetric' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AME96/Audit.lean:5:0: 'AME96.firstCut_cancels' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AME96/Audit.lean:6:0: 'AME96.ternary_cancel' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AME96/Audit.lean:7:0: 'AME96.binary_cancel' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AME96/Audit.lean:8:0: 'AME96.character_mul_star' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AME96/Audit.lean:9:0: 'AME96.firstCut_environmentProduct_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AME96/Audit.lean:10:0: 'AME96.state_normalized' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AME96/Audit.lean:11:0: 'AME96.existsAME_of_reductions' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AME96/Audit.lean:13:0: 'AME96.allCuts_cancels' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AME96/Audit.lean:14:0: 'AME96.allCuts_complete' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AME96/Audit.lean:15:0: 'AME96.allCuts_partition' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AME96/Audit.lean:16:0: 'AME96.everyPartition_cancels' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AME96/Audit.lean:17:0: 'AME96.mixedPhase_environment_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AME96/Audit.lean:18:0: 'AME96.reduction_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AME96/Audit.lean:19:0: 'AME96.state_isAME' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AME96/Audit.lean:20:0: 'AME96.exists_ame_9_6' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AME96/Audit.lean:21:0: 'AME96.ame_9_6_answer_true' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (8944 jobs).

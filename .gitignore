@@ -1,0 +1,5 @@
+.DS_Store
+.lake/
+lean/.lake/
+lean4web/.lake/
+__pycache__/

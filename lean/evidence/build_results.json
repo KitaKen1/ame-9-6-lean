@@ -1,0 +1,152 @@
+{
+  "status": "PASS",
+  "scope": "Full explicit AME(9,6) existence proof in the pinned FC definition",
+  "ame_existence_proved": true,
+  "all_126_cuts_proved": true,
+  "partial_trace_factorization_proved": true,
+  "checked_cuts": 126,
+  "nonzero_difference_types_covered": 826560,
+  "certificate_nonzero_binary_differences": 10080,
+  "unconditional_theorem": "AME96.exists_ame_9_6",
+  "formal_target_theorem": "AME96.ame_9_6_answer_true",
+  "checked_at": "2026-09-23T05:50:48.471193+00:00",
+  "command": "lake --wfail build AME96 AME96.Audit",
+  "exit_code": 0,
+  "elapsed_seconds": 559.294,
+  "timing_note": "This build may reuse compiled modules; elapsed time is not pure kernel-checking time.",
+  "first_cut_timing_note": "Historical first successful Lake module build; includes module loading and host contention.",
+  "first_cut_initial_module_build_seconds_reported_by_lake": 33,
+  "lean_version": "leanprover/lean4:v4.33.1",
+  "fc_commit": "2a46c7bd74505b85f4967475bb733ded0ef8d348",
+  "mathlib_commit": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "axiom_audit_passed": true,
+  "axioms": {
+    "AME96.firstCut_cancels": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "AME96.fastCompatible_cancels": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "AME96.allCuts_complete": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "AME96.allCuts_cancels": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "AME96.state_isAME_of_cancellation": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "AME96.exists_ame_9_6": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "AME96.G_symmetric": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "AME96.ternary_cancel": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "AME96.binary_cancel": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "AME96.character_mul_star": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "AME96.firstCut_environmentProduct_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "AME96.state_normalized": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "AME96.existsAME_of_reductions": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "AME96.allCuts_partition": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "AME96.everyPartition_cancels": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "AME96.mixedPhase_environment_sum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "AME96.reduction_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "AME96.state_isAME": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "AME96.ame_9_6_answer_true": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "source_sha256": {
+    "AME96/AllCuts.lean": "453a145335fbdfebddc16cfa56c12269f982d3b4daeda0b104038dcc3e8f3dc4",
+    "AME96/Audit.lean": "f86698fe4c5b7a800410bdd8312b05a61facb13e831ee83feda5a776b37dca72",
+    "AME96/Certificate.lean": "51014dd482e2a2589c26fac27d2d802105428b055cbcb342dc82396d9e2db519",
+    "AME96/CharacterSum.lean": "61e3766030aa4bf6b4f2ee16b7d8a93c7534a7a784db56c02d25970deb098a24",
+    "AME96/CutCoverage.lean": "4d9260a085c288b6008dd49715f3edf4df309488cd28604ba8258664929ec06c",
+    "AME96/CutData.lean": "c9e4705906476a086d162e3ca9cf40654e46b103ec9344c188520e05a7eb3790",
+    "AME96/CutMatrices.lean": "971438cb2a20c3c5b8d4d4232c71c949fd1ca33aad934d693d332525159328db",
+    "AME96/Data.lean": "4306ade27cfe3464d086793dab96eb24814e5eef6173d1ec93eb94cc47a1719d",
+    "AME96/Existence.lean": "500c99fb789c41176647499783094c72ef0064670733b63af7f8cf7b05c58cb4",
+    "AME96/FCInterface.lean": "8ad3eaf04d1606a016b87ac65fe7bc468e2e853452f6f06b440c52124b367e83",
+    "AME96/Factor.lean": "8c50e4c926259204c757f95cff227a17da84d91446c3ced08f38d8a68eaa5dc7",
+    "AME96/FastChecks.lean": "4d84ed155affc1a0eb10a720766dc3b221f9b28728651baff666cf7253e5db6c",
+    "AME96/Finite.lean": "49a42f8a20f53b47d29d08510012c9866b34f32edc4223a79c793e0e8ad05973",
+    "AME96/FirstCut.lean": "a4ecb6e954e25634401a782b279d7b37388e3775cc49b8a3838a6b713c0f1249",
+    "AME96/FormalTarget.lean": "8a5c8d5ebd127e271bc2472347333d569f93c607eb3e60a97d712e645166be25",
+    "AME96/MixedPhase.lean": "aa0630731514f339b568e2c78fbaae209b5505de94ad3d01a480eacd65fbef0c",
+    "AME96/Partition.lean": "44e4db8618207b8fa6d66fee4cfac74c685e6c42ad5df282a60b19c80c912f69",
+    "AME96/Phase.lean": "50dbfa165f49f2fabc138a6ab2e987189daae039b4a3f346984ab50581653696",
+    "AME96/Polynomial.lean": "d810fe508527a079a264011a6a76b262a38decf9e9024ab6b0ef786a94fa01f8",
+    "AME96/Reduction.lean": "42fba9105e412e92bbdc796f3bc03fe98c559dd01c8468ba111729f56d427bab",
+    "AME96/State.lean": "57ab2c04bff783edf2bf936194cb95cdd016701557b8541bc8eeab0f90b82508",
+    "AME96.lean": "20674cb9daa822b465c3faa958b33dc8e7aa6b3c54a951d096ac82a49af1f1e6",
+    "lakefile.toml": "f439670184af1e557f505a88a2666ee17c769022b7bb5169c41f37710d56c83c",
+    "lake-manifest.json": "c31b0a37e987feefba206e6720bdabd92a899c289926a155bccf71c02f0b708e",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "scripts/build_audit.py": "7b2cda6310b6cfc76ef74cf523f88389076bfd10f592b7c60789dd9bed20527a",
+    "scripts/generate_cuts.py": "6c20181896bb59efa4d0b7d055d0ead91ff071deb9986331441051389060ec69",
+    "scripts/generate_data.py": "7b968be9a9d2fb16f968327a82afe93d23aac38e03fc9aad0bac2536eb04f3e2",
+    "scripts/generate_fast_checks.py": "95c6312a4705ee027ab2602037f06b5eb02672e5046015b8d6fbf1b57f723a45",
+    "scripts/reference_verify.py": "1e3936ef25b89b71d4b80af29488965411ebf8df8a0b75b842293d9b59aaa5a9"
+  }
+}
